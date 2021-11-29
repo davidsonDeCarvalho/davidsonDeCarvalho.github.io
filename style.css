@@ -1,48 +1,32 @@
-header{
-    position: fixed;
-    top: 0%;
-    background-color: white;
-    width: 100%;
-    text-align: center;
-}
 h1{
-    font-family: 'Comfortaa', cursive;
-}
-img{
-    width: 20%;
-}
-h2{
-    font-family: 'Lemonada', cursive;
-    font-weight: lighter;
-    text-decoration: underline;
-}
-#description{
-    font-family: 'Lemonada', cursive;
-    font-size: 20px;
-    font-weight: bold;
-    text-align: justify;
+    position: absolute;
+    margin-left: 23%;
+    margin-top: 2%;
 }
 body{
     background-color: #EAEFBD;
+    padding: 2%;
 }
 .logo{
     width: 5%;
     border-radius: 50%;
 }
-footer{
-    position: fixed;
-    bottom: 0;
-    background-color: white;
-    padding: 1%;
+#minhaFoto{
+    float: left;
+    width: 20%;
+    height: 330px;
+    padding: 10px;
+    background-color: royalblue;
 }
-#linkedin{
-    margin-right: 40%;
-    display: inline;
+section{
+    height: 350px;
 }
-#github{
-    display: inline;
+p{
+    text-align: justify;
 }
-#insta{
-    margin-left: 43%;
-    display: inline;
+article{
+    margin-top: 15%;
+    position: absolute;
+    margin-left: 23%;
+    padding-right: 2%;
 }
