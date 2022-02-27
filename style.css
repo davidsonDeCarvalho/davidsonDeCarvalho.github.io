@@ -1,32 +1,115 @@
-h1{
-    position: absolute;
-    margin-left: 23%;
-    margin-top: 2%;
+* {
+  padding: 0;
+  margin: 0;
+  border: 0;
+  box-sizing: border-box;
+  font-size: large;
+  font-family: "Changa", sans-serif;
+  color: rgb(55, 73, 18);
 }
-body{
-    background-color: #EAEFBD;
-    padding: 2%;
+body {
+  border-radius: 50px;
+  box-shadow: black 0px 0px 10px 1px;
+  margin: 10px;
+  background-color: aliceblue;
 }
-.logo{
-    width: 5%;
-    border-radius: 50%;
+
+header {
+  display: flex;
+  justify-content: center;
 }
-#minhaFoto{
-    float: left;
-    width: 20%;
-    height: 330px;
-    padding: 10px;
-    background-color: royalblue;
+
+.imagem {
+  display: flex;
+  justify-content: center;
 }
-section{
-    height: 350px;
+
+.foto {
+  width: 10%;
+  margin-top: 50px;
+  border-radius: 50px;
+  box-shadow: black 0px 0px 10px 1px;
 }
-p{
-    text-align: justify;
+
+.titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 60%;
+  margin-top: 10px;
+  font-size: 3em;
+  box-shadow: gray 1px 1px 10px 1px;
+  /* position: fixed; */
+  background-color: whitesmoke;
+  border-radius: 50px;
 }
-article{
-    margin-top: 15%;
-    position: absolute;
-    margin-left: 23%;
-    padding-right: 2%;
+
+.sobre {
+  text-align: center;
+  margin: 50px 200px;
+  padding: 10px;
+  border-radius: 50px;
+  box-shadow: black 0px 0px 10px 1px;
+}
+
+h2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  font-size: 2em;
+}
+
+.paragrafo {
+  width: 90%;
+  display: flex;
+  justify-content: center;
+  text-align: justify;
+  font-size: 0.7em;
+  margin-top: 15px;
+}
+
+.lista {
+  display: flex;
+  flex-direction: column;
+  /* border: 2px solid greenyellow; */
+  margin-left: 20px;
+  list-style-type: none;
+}
+
+.itens {
+  font-size: 1.5em;
+}
+
+.habilidades {
+  margin-left: 20px;
+  margin-top: 100px;
+}
+
+.habilidades p {
+  font-size: 2em;
+}
+
+.contatos {
+  margin-left: 20px;
+  margin-top: 100px;
+}
+
+.icones {
+  width: 80px;
+}
+
+/* .contatos {
+  border: 2px solid red;
+} */
+
+.conexões {
+  align-self: baseline;
+  justify-content: flex-start;
+  font-size: 2em;
+}
+
+.redes {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 200px;
 }
